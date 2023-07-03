@@ -25,19 +25,25 @@
 }
 
 .destinations {
+  border: 3px solid blue;
+  padding: 20px 40px 40px;
   display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
+  width: 100%;
 }
 
-.text {
-    margin: 3rem;
-    display: flex;
-    flex-direction: column;
+.img-container {
+  border: 3px solid pink;
+  width: 14rem;
+  height: 18rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8%;
+  margin: 1.5rem;
 }
 
-.dest-image {
-  height: 3rem;
-  width: 2rem;
-  top: 5rem;
+.text-container {
+  flex: 1 1 auto;
+  border: 3px solid;
+  padding: 5%;
+  margin: auto;
 }

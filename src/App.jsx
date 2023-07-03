@@ -19,9 +19,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <section className='destinations'>
-        {destination}
-      </section>
+      {destination}
     </>
   )
 }
