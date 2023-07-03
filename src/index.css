@@ -30,3 +30,14 @@
   flex-shrink: 0;
 }
 
+.text {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.dest-image {
+  height: 3rem;
+  width: 2rem;
+  top: 5rem;
+}

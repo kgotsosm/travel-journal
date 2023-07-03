@@ -4,9 +4,7 @@ import data from "../src/data.js";
 export default function Destination(props) {
   return (
     <div className="destinations">
-      <div className="dest-image">
-        <img src={props.imageUrl} />
-      </div>
+      <img src={props.imageUrl} className="dest-image"/>
       <div className="text">
         <p className="country">{props.location}</p>
         <a className="maps-link" href={props.googleMapsUrl}>
