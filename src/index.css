@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-<<<<<<< HEAD
   margin: 0px;
   font-family: "Inter", sans-serif;
   flex-shrink: 0;
@@ -30,6 +29,4 @@
   flex-direction: column;
   flex-shrink: 0;
 }
-=======
-}
->>>>>>> 4dcd0433304726170851d1049e04c83e6c874988
+
