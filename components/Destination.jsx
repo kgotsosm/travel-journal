@@ -10,18 +10,21 @@ export default function Destination(props) {
       ></div>
 
       <div className="text-container">
+        <div className="info-text">
+        <img className="location-ico" src="../src/assets/location.svg" />
         <p className="country">{props.location}</p>
         <a className="maps-link" href={props.googleMapsUrl} target="_blank">
-          View on Google Maps
+          View On Google Maps
         </a>
+        </div>
         <h1>{props.title}</h1>
         <h3>
           {props.startDate} - {props.endDate}
         </h3>
         <p className="description">{props.description}</p>
-        
       </div>
-      
+      <br></br>
     </div>
+
   );
 }
